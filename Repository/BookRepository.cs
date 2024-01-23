@@ -9,7 +9,7 @@ namespace Library.Repostories
         {
             // Get all books from db
              List<Book>  books = new List<Book>();
-            for (int i = 0; i < 3; i++) { 
+            for (int i = 0; i < 10; i++) { 
                 var book = new Book();
                 book.Title = $"Book Title: {i.ToString()}";
                 book.id = i;
