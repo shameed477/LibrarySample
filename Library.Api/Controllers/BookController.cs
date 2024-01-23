@@ -23,5 +23,11 @@ namespace Library.Api.Controllers
         {
             return _bookService.GetBooks();
         }
+
+        [HttpGet(Name = "Detail")]
+        public IEnumerable<Book> Get(int id)
+        {
+            return _bookService.GetBooks();
+        }
     }
 }

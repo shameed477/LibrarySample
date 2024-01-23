@@ -10,5 +10,7 @@ namespace Library.Repostories.Abstraction
     public interface IBookRepository
     {
         public List<Book> GetBooks();
+        public Book GetBookById(int id);
     }
+}
 }

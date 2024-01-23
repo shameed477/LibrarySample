@@ -16,5 +16,9 @@ namespace Library.Services
         {
             return _bookRepository.GetBooks();
         }
+        public Book GetBookById(int id)
+        {
+            return _bookRepository.GetBookById(id);
+        }
     }
 }

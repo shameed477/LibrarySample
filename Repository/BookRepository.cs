@@ -18,5 +18,17 @@ namespace Library.Repostories
 
             return books;
         }
+        public Book GetBookById(int id)
+        {
+            // Get all books from db
+            
+                var book = new Book();
+                book.Title = $"Book Title: Test {id}";
+                book.id = id;
+               
+            
+
+            return book;
+        }
     }
 }

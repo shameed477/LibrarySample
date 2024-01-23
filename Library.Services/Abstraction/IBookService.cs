@@ -10,5 +10,6 @@ namespace Library.Services.Abstraction
     public interface IBookService
     {
         public List<Book> GetBooks();
+        public Book GetBookById(int id);
     }
 }
